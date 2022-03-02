@@ -1,0 +1,25 @@
+.paragraph--text__top-bar {
+  font-weight: 600; 
+  color: #fff; 
+  margin: 0px;
+  font-size: 12px; 
+  font-weight: 600; 
+}
+
+.container {
+  height: 32px;   
+}
+
+.container--text__top-bar {
+  align-items: center; 
+}
+
+.container--beAreseller__top-bar {
+  justify-content: flex-end; 
+  width: 626px; 
+}
+
+.container--freeShipping__top-bar {
+  width: 626px; 
+}
+

@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#threeHeader-bar": {
+    "props": {
+      "blockClass": "searchField__three-header"
+    },
+    "children": [
+      "logo#desktop-logo__threeheader",
+      "search-bar#desktop-search__threeheader",
+      "flex-layout.col#loginAndCart__threeheader"
+    ]
+  },
+  "logo#desktop-logo__threeheader": {
+    "props": {
+      "blockClass": "desktop",
+      "title": "logo",
+      "url": "assets/imgs/logo-avanti-color@2x.png"
+    }
+  },
+  "search-bar#desktop-search__threeheader": {
+    "props": {
+      "auto-foco": true,
+      "placeholder": "O que você procura?"
+    }
+  },
+  "flex-layout.col#loginAndCart__threeheader": {
+    "props": {
+      "blockClass": [
+        "col__one",
+        "col__two"
+      ]
+    },
+    "children": [
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "mirrorTooltipToRight": true
+    }
+  },
+  "minicart.v2": {}
+}

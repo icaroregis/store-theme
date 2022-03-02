@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#top-bar": {
+    "props": {
+      "blockClass": "wrapper__top-bar"
+      /* seria mesma coisa disso */
+      /*<div class='wrapper__top-bar'><div/>*/
+    },
+    "children": [
+      "rich-text#email-text",
+      "rich-text#phone-text"
+    ]
+  },
+  "rich-text#email-text": {
+    "props": {
+      "blockClass": [
+        "text__top-bar",
+        "freeShipping__top-bar"
+      ],
+      "text": "Frete Grátis acima de R$ 299,00 para Região Sudeste"
+    }
+  },
+  "rich-text#phone-text": {
+    "props": {
+      "blockClass": [
+        "text__top-bar",
+        "beAreseller__top-bar"
+      ],
+      "text": "SEJA UM REVENDEDOR | SEJA UM REPRESENTANTE"
+    }
+  }
+}

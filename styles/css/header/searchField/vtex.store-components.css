@@ -1,0 +1,21 @@
+.logoImage--desktop {      
+  max-width: 500px; 
+  width: 200px;
+  height: 34px; 
+} 
+
+.container { 
+  width: 1252px;     
+}
+
+.logoContainer {
+  padding-left: 0px; 
+}
+
+.searchBarContainer {
+  margin-left: -140px;    
+  max-width: 620px;       
+}
+
+
+

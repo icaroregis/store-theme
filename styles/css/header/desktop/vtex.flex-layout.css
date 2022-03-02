@@ -1,0 +1,37 @@
+.flexRow--wrapper__top-bar {
+  background-color: black;   
+  height: 32px;      
+}
+
+.flexRow--searchField__three-header {
+  display: flex; 
+  background-color: #eeeeee; 
+  height: 77.29px; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.stretchChildrenWidth {   
+  flex-direction: row;
+  justify-content: flex-start; 
+  align-items: center;  
+}
+
+.flexCol {
+  flex-direction: row; 
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+.flexColChild--col__one { 
+   display: flex; 
+   align-items: center;      
+}   
+
+
+
+
+
+
+
+
