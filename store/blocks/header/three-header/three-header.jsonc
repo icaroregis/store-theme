@@ -5,7 +5,7 @@
     },
     "children": [
       "logo#desktop-logo__threeheader",
-      "search-bar#desktop-search__threeheader",
+      "flex-layout.col#searchField__threeheader",
       "flex-layout.col#loginAndCart__threeheader"
     ]
   },
@@ -16,9 +16,18 @@
       "url": "assets/imgs/logo-avanti-color@2x.png"
     }
   },
+  "flex-layout.col#searchField__threeheader": {
+    "props": {
+      "blockClass": "wrapper__search-bar"
+    },
+    "children": [
+      "search-bar#desktop-search__threeheader"
+    ]
+  },
   "search-bar#desktop-search__threeheader": {
     "props": {
       "auto-foco": true,
+      "displayMode": "search-and-clear-buttons",
       "placeholder": "O que você procura?"
     }
   },

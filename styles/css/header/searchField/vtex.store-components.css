@@ -9,12 +9,19 @@
 }
 
 .logoContainer {
-  padding-left: 0px; 
+  padding-left: 0px;  
 }
 
-.searchBarContainer {
-  margin-left: -140px;    
-  max-width: 620px;       
+.searchBarContainer {    
+  width: 550px;               
+}
+
+.searchBarIcon--external-search {
+  background-color: #441afa; 
+}
+
+.searchIcon { 
+  color: white;  
 }
 
 

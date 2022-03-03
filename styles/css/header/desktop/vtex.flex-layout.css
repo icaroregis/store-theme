@@ -28,6 +28,10 @@
    align-items: center;      
 }   
 
+.flexCol--wrapper__search-bar {
+  width: 1000px;  
+}
+
 
 
 
