@@ -25,12 +25,23 @@
 
 .flexColChild--col__one { 
    display: flex; 
-   align-items: center;      
-}   
+   align-items: center;         
+}     
 
-.flexCol--wrapper__search-bar {
-  width: 1000px;  
+:global(.vtex-login-2-x-profileIcon) {       
+  color: black;    
 }
+
+:global(.vtex-login-2-x-label) {        
+  color: black;    
+}
+
+:global(.vtex-minicart-2-x-cartIcon) {         
+  color: black;    
+}
+
+
+
 
 
 

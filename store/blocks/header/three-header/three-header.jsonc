@@ -39,15 +39,19 @@
       ]
     },
     "children": [
-      "login",
-      "minicart.v2"
+      "login#login__threeheader",
+      "minicart.v2#minicart__threeheader"
     ]
   },
-  "login": {
+  "login#login__threeheader": {
     "props": {
       "showIconProfile": true,
-      "mirrorTooltipToRight": true
+      "mirrorTooltipToRight": true,
+      "labelClasses": [
+        "iconOne__threeheader",
+        "iconTwo__threeheader"
+      ]
     }
   },
-  "minicart.v2": {}
+  "minicart.v2#minicart__threeheader": {}
 }
