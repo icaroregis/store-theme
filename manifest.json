@@ -1,6 +1,6 @@
 {
   "vendor": "avantivtexio",
-  "name": "store-theme", 
+  "name": "store-theme",
   "version": "4.4.2",
   "builders": {
     "styles": "2.x",
