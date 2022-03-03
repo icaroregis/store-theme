@@ -1,0 +1,24 @@
+.menuContainerNav {
+  background-color: #eeeeee; 
+  height: 41px; 
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(162,162,162, 0.1);    
+}  
+
+.menuContainer{
+  height: 41px; 
+  width: 1252px;  
+}
+
+.styledLinkContainer { 
+  height: 41px; 
+  display: flex;
+  align-items: center; 
+  text-align: center; 
+}
+
+.styledLinkContent { 
+  color: #25282a; 
+}
+

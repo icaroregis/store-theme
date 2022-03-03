@@ -1,0 +1,81 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#TODOS_OS_DEPARTAMENTOS",
+      "menu-item#DEPARTAMENTO_1",
+      "menu-item#DEPARTAMENTO_2",
+      "menu-item#NOVIDADES",
+      "menu-item#OUTLET"
+    ]
+  },
+  "menu-item#TODOS_OS_DEPARTAMENTOS": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "TODOS OS DEPARTAMENTOS"
+      }
+    }
+  },
+  "menu-item#DEPARTAMENTO_1": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 1"
+      }
+    }
+  },
+  "menu-item#DEPARTAMENTO_2": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 3"
+      }
+    }
+  },
+  "menu-item#NOVIDADES": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "NOVIDADES"
+      }
+    }
+  },
+  "menu-item#OUTLET": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "OUTLET"
+      }
+    }
+  }
+}
