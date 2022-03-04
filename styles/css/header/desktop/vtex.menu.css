@@ -22,3 +22,26 @@
   color: #25282a; 
 }
 
+.menuItem--teste_linha_um {
+  background-color: #441afa;  
+}
+
+.styledLinkContent--teste_linha_um {
+  font-weight: 600; 
+  color: #fff;
+  font-size: 17px; 
+}
+
+.styledLinkIcon--teste_linha_um {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  margin-top: -2px;
+  margin-right: 8px;   
+}
+
+.rebel-pink-teste {  
+  color: #fff; 
+  background-color: #fff;  
+}
+

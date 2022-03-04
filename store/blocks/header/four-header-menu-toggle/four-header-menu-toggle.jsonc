@@ -10,6 +10,7 @@
   },
   "menu-item#TODOS_OS_DEPARTAMENTOS": {
     "props": {
+      "blockClass": "teste_linha_um",
       "id": "menu-item-shop",
       "type": "custom",
       "highlight": false,
@@ -19,7 +20,15 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "TODOS OS DEPARTAMENTOS"
-      }
+      },
+      "iconProps": {
+        "id": "hpa-hamburguer-menu",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink-teste",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
     }
   },
   "menu-item#DEPARTAMENTO_1": {
