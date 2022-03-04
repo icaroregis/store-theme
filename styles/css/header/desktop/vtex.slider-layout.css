@@ -1,0 +1,13 @@
+.sliderLayoutContainer {
+  background-color: white; 
+}
+
+.slideChildrenContainer {
+  width: 1252px; 
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}

@@ -18,7 +18,7 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
+        "tagTitle": "teste",
         "text": "TODOS OS DEPARTAMENTOS"
       },
       "iconProps": {
@@ -29,6 +29,142 @@
         "mutedClassName": "c-action-primary"
       },
       "iconToTheRight": true
+    },
+    // Defining a submenu 
+    "blocks": [
+      "vtex.menu@2.x:submenu#shop"
+    ]
+  },
+  "vtex.menu@2.x:submenu#shop": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#child__DEPARTAMENTO_1",
+      "menu-item#child__DEPARTAMENTO_2",
+      "menu-item#child__DEPARTAMENTO_3",
+      "menu-item#child__DEPARTAMENTO_4",
+      "menu-item#child__DEPARTAMENTO_5",
+      "menu-item#child__DEPARTAMENTO_6",
+      "menu-item#child__DEPARTAMENTO_7",
+      "menu-item#child__DEPARTAMENTO_8"
+    ]
+  },
+  "menu-item#child__DEPARTAMENTO_1": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 1"
+      }
+    }
+  },
+  "menu-item#child__DEPARTAMENTO_2": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 2"
+      }
+    }
+  },
+  "menu-item#child__DEPARTAMENTO_3": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 3"
+      }
+    }
+  },
+  "menu-item#child__DEPARTAMENTO_4": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 4"
+      }
+    }
+  },
+  "menu-item#child__DEPARTAMENTO_5": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 5"
+      }
+    }
+  },
+  "menu-item#child__DEPARTAMENTO_6": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 6"
+      }
+    }
+  },
+  "menu-item#child__DEPARTAMENTO_7": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 7"
+      }
+    }
+  },
+  "menu-item#child__DEPARTAMENTO_8": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPARTAMENTO 8"
+      }
     }
   },
   "menu-item#DEPARTAMENTO_1": {
@@ -55,7 +191,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Shop",
-        "text": "DEPARTAMENTO 3"
+        "text": "DEPARTAMENTO 2"
       }
     }
   },
