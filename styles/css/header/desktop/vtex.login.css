@@ -1,7 +1,11 @@
 .profileIcon {
-  color: black;  
+  background: url('assets/imgs/user.png') no-repeat center;     
+  width: 24px;
+  height: 28px; 
+  color: transparent; 
 }
 
 .label { 
-  color: black;    
-}
+  display: none; 
+} 
+

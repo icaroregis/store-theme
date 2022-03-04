@@ -1,3 +1,6 @@
-.cartIcon {
-  color: black;   
+.cartIcon { 
+  background: url('assets/imgs/shopping-cart.png') no-repeat center;
+  width: 28px;
+  height: 25.69px;        
+  color: transparent;  
 }  
